@@ -33,6 +33,15 @@ font-family: 'Public Sans', sans-serif;
 }
 
 
+.card img{
+  width: 335px;
+  height: 431px;
+}
+
+.card img:hover{
+  filter: brightness(50%);
+}
+
 .infos{
   display: block;
   position: absolute;
@@ -40,13 +49,13 @@ font-family: 'Public Sans', sans-serif;
   left: 26px;
 }
 
-.cidade{
+.name{
   font-size: 30px;
   font-weight: 700;
   color: #fff;
 }
 
-.author{
+.description{
   font-weight: 300;
   font-size: 17px;
   color: #fff;
@@ -70,7 +79,6 @@ font-family: 'Public Sans', sans-serif;
   .card{
     display: flex;
     justify-content: center;
-    align-items: center;
     align-items: center;
   }
 
