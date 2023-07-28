@@ -1,0 +1,78 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Public Sans', sans-serif;
+}
+
+.cards-section{
+  width: 1440px;
+  height: 690px;
+  background-color: background #FFFFFF;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card{
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column  wrap;
+  align-items: flex-start;
+  position: relative;
+}
+
+
+.infos{
+  display: block;
+  position: absolute;
+  bottom: 43px;
+  left: 26px;
+}
+
+.cidade{
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.author{
+  font-weight: 300;
+  font-size: 17px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 576px){
+  
+  body{
+    width: 375px;
+  }
+
+  .cards-section{
+    gap: 1px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+
+
+} 
