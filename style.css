@@ -67,12 +67,11 @@ font-family: 'Public Sans', sans-serif;
 
 
 /* 2 FILEIRAS TABLET */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1250px){
     
   .cards-section{
   max-width: 800px;
-  margin: 0 auto;
-  align-items: center;
+  height: 100%;
   }  
 
 }
@@ -80,21 +79,8 @@ font-family: 'Public Sans', sans-serif;
 /* MOBILE */
 @media screen and (max-width: 576px){
   
-  body{
-    width: 375px;
-  }
-
   .cards-section{
-    margin: 0 auto;
-    align-items: center;
+  max-width: 375px;
   }
-  
-
-  .card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
 
 } 
