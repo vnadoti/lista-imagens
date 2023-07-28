@@ -5,7 +5,7 @@ Exercício de HTML e CSS do DevQuest
 ## 🖼️ Visualize
 Desktop
 <br>
-<img align="center" alt="Desktop"  width="90%" src="https://i.postimg.cc/RCwZHftG/Anima-o.gif">
+<img align="center" alt="Desktop"  width="90%" src="https://i.postimg.cc/mD6b4vfX/Anima-o.gif">
 <br>
 ## 💡 Desafios 
 Esse desafio me fez a internalizar ainda mais os conceitos de Flexbox!
